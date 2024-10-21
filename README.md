@@ -42,3 +42,24 @@ To launch the navigation system, use the following command:
    ```bash
    roslaunch brl_chicken_2dnav brl_move_base.launch
    ```
+
+## Configuration
+
+Configuration files for the navigation system can be found in the `config` directory. These files allow you to customize parameters for the `move_base` and AMCL nodes.
+
+## Dependencies
+
+The package depends on the following ROS packages:
+
+- `move_base`
+- `navigation`
+- `pointcloud_to_laserscan`
+
+Ensure these packages are installed and available in your ROS workspace.
+
+## License
+
+This project is licensed under the [TODO] License - see the `LICENSE` file for details.
+
+
+
