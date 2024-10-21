@@ -39,3 +39,6 @@ The `brl_chicken_2dnav` package is a ROS-based navigation system designed for 2D
 ## Usage
 
 To launch the navigation system, use the following command:
+   ```bash
+   roslaunch brl_chicken_2dnav brl_move_base.launch
+   ```
